@@ -4,6 +4,7 @@
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="css/normalize.css">
    <link rel="stylesheet" href="css/myreset.css">
    <link rel="stylesheet" href="css/stylesheet.css">
    <link rel="stylesheet" href="css/style.css">
@@ -12,7 +13,7 @@
 </head>
 <body>
    <div class="wrapper">
-      <div class="navbar">
+      <div class="navbar container">
          <img class="logo" src="img/Logo.svg" alt="Логотип портфолио">
          <nav class="navigation">
             <ul class="nav-list">
@@ -23,6 +24,54 @@
             </ul>
          </nav>
       </div>
-   </div>  
+      <!-- ./navbar -->
+      <header class="header container">        
+            <img class="img-emoji" src="img/emoji.png" alt="Мой эмоджи">        
+         <!-- /.img-emoji -->
+         <div class="header-text">            
+            <strong class="header-strong">Привет 👋</strong>
+            <h1 class="header-text__aboutme">
+               <span class="text-color">Я фронтенд-разработчик и веб-дизайнер</span>
+               Меня зовут Артем Исламов и я делаю сайты для людей и компаний
+            </h1>              
+         <div class="header-links">
+            <ul class="social-list">
+               <li class="social-item">
+                  <a href="" class="social-link">
+                     <img src="img/icons-social/linkedin.svg" alt="LinkedIn" class="social-logo">
+                  </a>
+               </li>
+               <li class="social-item">
+                  <a href="" class="social-link">
+                     <img src="img/icons-social/twitter.svg" alt="Twitter" class="social-logo">
+                  </a>
+               </li>
+               <li class="social-item">
+                  <a href="" class="social-link">
+                     <img src="img/icons-social/github.svg" alt="GitHub" class="social-logo">
+                  </a>
+               </li>
+               <li class="social-item">
+                  <a href="" class="social-link">
+                     <img src="img/icons-social/stackoverflow.svg" alt="Stackoverflow" class="social-logo">
+                  </a>
+               </li>
+               <li class="social-item">
+                  <a href="" class="social-link">
+                     <img src="img/icons-social/youtube.svg" alt="Youtube" class="social-logo">
+                  </a>
+               </li>
+            </ul>           
+               <a href="#" class="cv-download">
+                  <img src="img/cv-download.svg" alt="download " class="cv-icon">
+                  <span class="cv-text">Скачать резюме </span>
+               </a>            
+         </div>         
+         <!-- ./header-links -->
+         </div>
+         <!-- /.header-text -->
+      </header>
+      <!-- ./header -->
+   </div>
 </body>
 </html>
